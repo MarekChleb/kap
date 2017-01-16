@@ -103,6 +103,7 @@ void dijkstra() {
 
 int main() {
     parse_entry();
+    cout << INT32_MAX << endl;
     sort_pts();
     create_graph();
     dijkstra();
